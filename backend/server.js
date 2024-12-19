@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000;
 
 // Get the home route
 app.get("/", (req, res) => {
-  res.send("This is home route");
+  res.send("This is home route.");
 });
 
 // Start the server
