@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a.active hr {
+  display: block;
+}
+
+@media screen and (max-width: 640px) {
+  a.active {
+    background-color: #333;
+    color: #fff;
+  }
+}
