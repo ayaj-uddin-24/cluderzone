@@ -136,15 +136,11 @@ const AddPost = () => {
           <option value="" disabled>
             Select a category
           </option>
-          <option value="সরকারি চাকরি">সরকারি চাকরি</option>
-          <option value="বেসরকারি চাকরি">বেসরকারি চাকরি</option>
-          <option value="ব্যাংক চাকরি">ব্যাংক চাকরি</option>
-          <option value="শিক্ষাক্রম">শিক্ষাক্রম</option>
-          <option value="প্রযুক্তি">প্রযুক্তি</option>
-          <option value="বিজ্ঞান">বিজ্ঞান</option>
-          <option value="Job Solution">Job Solution</option>
-          <option value="Academic Solution">Academic Solution</option>
-          <option value="Notice">Notice</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
         </select>
 
         <div>
