@@ -7,8 +7,7 @@ import Navbar from "./components/Navbar";
 import ManagePosts from "./pages/ManagePosts";
 import AddPost from "./pages/AddPost";
 import UpdatePost from "./pages/UpdatePost";
-// export const url = import.meta.env.VITE_BACKEND_URL;
-export const url = "http://localhost:5000";
+export const url = import.meta.env.VITE_BACKEND_URL;
 
 const App = () => {
   const { user } = useContext(BlogContext);
