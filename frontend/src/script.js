@@ -1,1 +1,303 @@
-function _0x383c(){const _0xc23a47=['thinking','innerText','11265ZFZSNb','push','input','44074OWZhok','target','innerWidth','img','classList','2450310ycKhOT','shiftKey','native','color','user-message','text','addEventListener','value','dispatchEvent','querySelector','preventDefault','Tech\x20Cluder\x20is\x20a\x20CPI\x20programming\x20community\x20that\x20promotes\x20learning,\x20knowledge\x20sharing,\x20and\x20problem-solving\x20among\x20students\x20and\x20enthusiasts.\x20The\x20community\x20primarily\x20focuses\x20on\x20programming\x20and\x20graphic\x20design,\x20creating\x20a\x20dynamic\x20platform\x20for\x20networking,\x20collaborative\x20learning,\x20and\x20exploring\x20creative\x20interests.\x20Founded\x20and\x20mentored\x20by\x20Mahfuz\x20Uddin,\x20the\x20senior\x20devloper\x20is\x20Ayaj\x20Uddin\x20Tanif\x20and\x20the\x20senior\x20grapic\x20designer\x20is\x20Jahid\x20Hasan\x20Jihan.\x20Tech\x20Cluder\x20\x20has\x20established\x20itself\x20as\x20a\x20hub\x20of\x20innovation\x20and\x20engagement.\x20Actively\x20utilizing\x20platforms\x20like\x20Facebook,\x20LinkedIn,\x20and\x20Twitter,\x20the\x20community\x20attracts\x20individuals\x20passionate\x20about\x20programming,\x20design,\x20and\x20technology.\x0a\x0aOne\x20of\x20the\x20most\x20anticipated\x20events\x20hosted\x20by\x20the\x20community\x20is\x20the\x20\x22CPI\x20Mind\x20Maze\x22,\x20scheduled\x20to\x20take\x20place\x20at\x20Chittagong\x20Polytechnic\x20Institute.\x20This\x20event\x20is\x20designed\x20to\x20cater\x20to\x20students\x20from\x20various\x20semesters\x20and\x20features\x20two\x20main\x20segments:\x0a\x0aProgramming\x20Quiz:\x20Targeted\x20at\x20first-semester\x20students,\x20this\x20segment\x20tests\x20basic\x20programming\x20knowledge\x20through\x20a\x20series\x20of\x20quizzes\x20aimed\x20at\x20nurturing\x20their\x20foundational\x20skills.\x0aCompetitive\x20Programming\x20Contest:\x20Focused\x20on\x20advanced-level\x20problem-solving,\x20this\x20segment\x20is\x20for\x20students\x20in\x20higher\x20semesters\x20(3rd,\x205th,\x20and\x207th),\x20providing\x20a\x20platform\x20to\x20showcase\x20their\x20coding\x20prowess\x20and\x20analytical\x20abilities.\x0aRules\x20and\x20Regulations\x0aEligibility:\x20Participants\x20must\x20be\x20students\x20of\x20Chittagong\x20Polytechnic\x20Institute\x20and\x20members\x20of\x20the\x20Tech\x20Cluder\x20community.\x0aTeam\x20Formation:\x0aProgramming\x20Quiz:\x20Individual\x20participation.\x0aCompetitive\x20Programming:\x20Teams\x20of\x202\x20members\x20are\x20allowed.\x0aRegistration:\x0aParticipants\x20must\x20register\x20online\x20before\x20the\x20deadline.\x0aRegistration\x20links\x20and\x20instructions\x20will\x20be\x20shared\x20on\x20the\x20Tech\x20Cluder\x20social\x20media\x20channels.\x0aConduct\x20During\x20the\x20Event:\x0aParticipants\x20must\x20adhere\x20to\x20the\x20guidelines\x20provided\x20during\x20the\x20orientation.\x0aCheating\x20or\x20plagiarism\x20will\x20lead\x20to\x20immediate\x20disqualification.\x0aEvaluation:\x0aQuiz:\x20Scores\x20will\x20be\x20based\x20on\x20accuracy\x20and\x20time\x20taken\x20to\x20answer.\x0aProgramming\x20Contest:\x20Solutions\x20will\x20be\x20evaluated\x20based\x20on\x20correctness,\x20efficiency,\x20and\x20innovation.\x0aEvent\x20Process\x0aOpening\x20Ceremony:\x20The\x20event\x20will\x20begin\x20with\x20an\x20inaugural\x20session,\x20featuring\x20a\x20brief\x20introduction\x20to\x20Tech\x20Cluder’s\x20mission\x20and\x20vision,\x20followed\x20by\x20a\x20welcome\x20speech\x20from\x20the\x20mentors.\x0aRounds:\x0aThe\x20Programming\x20Quiz\x20will\x20consist\x20of\x20multiple-choice\x20questions,\x20with\x20increasing\x20levels\x20of\x20difficulty\x20in\x20subsequent\x20rounds.\x0aThe\x20Competitive\x20Programming\x20Contest\x20will\x20challenge\x20participants\x20to\x20solve\x20real-world\x20problems\x20within\x20a\x20fixed\x20time,\x20using\x20coding\x20platforms.\x0aBreak\x20Sessions:\x20Interactive\x20breaks\x20with\x20light\x20refreshments\x20and\x20networking\x20opportunities.\x0aClosing\x20Ceremony:\x20Winners\x20will\x20be\x20announced,\x20and\x20prizes\x20will\x20be\x20distributed\x20to\x20recognize\x20their\x20achievements.\x0aKey\x20Highlights\x0aPrizes:\x20Cash\x20rewards,\x20certificates,\x20and\x20exclusive\x20Tech\x20Cluder\x20merchandise\x20for\x20winners\x20and\x20runners-up.\x0aMentor\x20Support:\x20Guidance\x20from\x20experienced\x20programmers\x20and\x20designers\x20throughout\x20the\x20event.\x0aNetworking\x20Opportunities:\x20An\x20excellent\x20chance\x20to\x20connect\x20with\x20like-minded\x20individuals\x20and\x20industry\x20mentors.\x0aFuture\x20Initiatives\x0aTech\x20Cluder\x20plans\x20to\x20expand\x20its\x20reach\x20by\x20introducing\x20more\x20events\x20like\x20hackathons,\x20workshops,\x20and\x20webinars.\x20The\x20community\x20also\x20aims\x20to\x20establish\x20collaborations\x20with\x20other\x20institutes,\x20fostering\x20an\x20ecosystem\x20of\x20creativity\x20and\x20innovation.ইভেন্টের\x20সময়সূচি\x0aall\x20the\x20details\x20of\x20Mindmaze\x20event-\x0a১.\x20রেজিস্ট্রেশন\x20পর্ব\x0a•\x09তারিখ:\x20১১\x20ফেব্রুয়ারি\x20–\x20২০\x20ফেব্রুয়ারি\x20২০২৫\x0a•\x09প্ল্যাটফর্ম:\x20ইভেন্টের\x20ডেডিকেটেড\x20ওয়েবসাইট\x0a•\x09কার্যক্রম:\x0ao\x09অংশগ্রহণকারীরা\x20ব্যক্তিগতভাবে\x20বা\x20টিম\x20আকারে\x20রেজিস্ট্রেশন\x20করবে।\x0ao\x09নাম,\x20সেমিস্টার,\x20যোগাযোগের\x20তথ্য\x20এবং\x20প্রোগ্রামিং\x20অভিজ্ঞতার\x20বিবরণ\x20দিতে\x20হবে।\x0ao\x09রেজিস্ট্রেশন\x20কনফার্মেশন\x20ইমেইল\x20এবং\x20গাইডলাইন\x20পাঠানো\x20হবে।\x0a২.\x20মক\x20কনটেস্ট\x0a•\x09তারিখ:\x20২৪\x20ফেব্রুয়ারি\x20২০২৫\x0a•\x09উদ্দেশ্য:\x0ao\x09প্রতিযোগিতার\x20পরিবেশের\x20সাথে\x20পরিচিত\x20করা।\x0ao\x09শিক্ষার্থীদের\x20অনুশীলনের\x20সুযোগ\x20দেওয়া।\x0a•\x09কাঠামো:\x0ao\x09অনলাইন\x20ভিত্তিক\x20(যেমন\x20HackerRank/Codeforces)।\x0ao\x09নতুনদের\x20জন্য\x20কুইজ\x20এবং\x20উন্নতদের\x20জন্য\x20কোডিং\x20সমস্যার\x20সমন্বয়।\x0ao\x09সময়কাল:\x20২\x20ঘণ্টা\x0a৩.\x20প্রধান\x20ইভেন্ট\x20–\x20Mindmaze\x20প্রতিযোগিতার\x20দিন\x0a•\x09তারিখ:\x20২৭\x20ফেব্রুয়ারি\x20২০২৫\x0a•\x09স্থান:\x20CPI\x20কম্পিউটার\x20ল্যাব\x0a•\x09সময়সূচি:\x0ao\x09সকাল\x20৯:০০\x20–\x20৯:৩০:\x20রেজিস্ট্রেশন\x20যাচাইকরণ\x20ও\x20উদ্বোধনী\x20অনুষ্ঠান\x0ao\x09সকাল\x20৯:৩০\x20–\x20১০:৩০:\x20প্রোগ্রামিং\x20কুইজ\x20(প্রথম\x20সেমিস্টার)\x0ao\x09সকাল\x20১১:০০\x20–\x20দুপুর\x20১:০০:\x20প্রতিযোগিতামূলক\x20প্রোগ্রামিং\x20(৩য়-৭ম\x20সেমিস্টার)\x0ao\x09দুপুর\x20১:০০\x20–\x20১:৩০:\x20ব্রেক\x20এবং\x20নেটওয়ার্কিং\x0ao\x09দুপুর\x20১:৩০\x20–\x20২:৩০:\x20পুরস্কার\x20বিতরণ\x20ও\x20সমাপনী\x20অনুষ্ঠান\x0a\x0aপ্রতিযোগিতার\x20বিবরণ\x0aপ্রোগ্রামিং\x20কুইজ\x20(১ম\x20সেমিস্টার)\x0a•\x09সময়কাল:\x20৬০\x20মিনিট\x0a•\x09ফরম্যাট:\x0ao\x09৫০টি\x20মাল্টিপল\x20চয়েস\x20প্রশ্ন।\x0ao\x09বিষয়:\x20প্রোগ্রামিংয়ের\x20বেসিক\x20ধারণা,\x20লজিক\x20এবং\x20সমস্যা\x20সমাধান।\x0a•\x09মূল্যায়ন:\x20সঠিক\x20উত্তরের\x20ভিত্তিতে\x20স্বয়ংক্রিয়\x20স্কোরিং।\x0aপ্রতিযোগিতামূলক\x20প্রোগ্রামিং\x20(৩য়,\x20৫ম,\x20৭ম\x20সেমিস্টার)\x0a•\x09সময়কাল:\x20২\x20ঘণ্টা\x0a•\x09ফরম্যাট:\x0ao\x09৮-১০টি\x20প্রোগ্রামিং\x20সমস্যা\x20বিভিন্ন\x20স্তরের।\x0ao\x09বিষয়:\x20ডাটা\x20স্ট্রাকচার,\x20অ্যালগরিদম\x20এবং\x20সমস্যা\x20সমাধান।\x0a•\x09প্ল্যাটফর্ম:\x20অনলাইন\x20ভিত্তিক\x20প্ল্যাটফর্ম।\x0a•\x09মূল্যায়ন:\x20সমস্যার\x20সংখ্যা\x20এবং\x20সময়ের\x20ভিত্তিতে।\x0aপুরস্কার\x20ও\x20সম্মাননা\x0a•\x09১ম\x20পুরস্কার:\x20ট্রফি\x20+\x20সনদ\x20+\x20ক্যাশ\x20বা\x20টেক\x20গ্যাজেট\x0a•\x09২য়\x20পুরস্কার:\x20মেডেল\x20+\x20সনদ\x0a•\x09৩য়\x20পুরস্কার:\x20এক্সিলেন্স\x20সার্টিফিকেট\x0a•\x09অংশগ্রহণ\x20সনদ:\x20সকল\x20অংশগ্রহণকারীদের\x20জন্য\x0aTech\x20Cluder\x20\x20has\x20established\x20on\x2011\x20feb\x202024','body','#file-input','replace','trim','stringify','#file-cancel','user','#send-message','innerHTML','parts','.chat-form','.message-text','479906aayMpd','change','show-chatbot','model','style','273176ieWAVJ','keydown','bot-message','none','.message-input','file-uploaded','1044dyNjJd','focus','scrollTo','file','5070UmhKet','51wvEsjE','153gjhanL','32px','remove','div','show-emoji-picker','Picker','click','createElement','add','files','scrollHeight','https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=','.file-upload-wrapper','smooth','type','content','candidates','src','appendChild','.chat-body','AIzaSyBk8pDuInP0H5xxCqStKAdVaVwFi95cB_o','setRangeText','16687JLRKhm','application/json','data','Enter','height','#file-upload','toggle','message','json','1364503cYmchX','split','result'];_0x383c=function(){return _0xc23a47;};return _0x383c();}const _0x22c185=_0xcc59;(function(_0x4e49af,_0x2f2472){const _0x41211f=_0xcc59,_0xe8150=_0x4e49af();while(!![]){try{const _0xf26b=-parseInt(_0x41211f(0x137))/0x1+parseInt(_0x41211f(0x16f))/0x2*(parseInt(_0x41211f(0x147))/0x3)+parseInt(_0x41211f(0x142))/0x4*(-parseInt(_0x41211f(0x16c))/0x5)+-parseInt(_0x41211f(0x174))/0x6+parseInt(_0x41211f(0x167))/0x7+parseInt(_0x41211f(0x13c))/0x8*(parseInt(_0x41211f(0x148))/0x9)+parseInt(_0x41211f(0x146))/0xa*(parseInt(_0x41211f(0x15e))/0xb);if(_0xf26b===_0x2f2472)break;else _0xe8150['push'](_0xe8150['shift']());}catch(_0x2dd4ee){_0xe8150['push'](_0xe8150['shift']());}}}(_0x383c,0x6c1e4));const chatBody=document['querySelector'](_0x22c185(0x15b)),messageInput=document[_0x22c185(0x17d)](_0x22c185(0x140)),sendMessage=document[_0x22c185(0x17d)](_0x22c185(0x132)),fileInput=document['querySelector'](_0x22c185(0x12c)),fileUploadWrapper=document[_0x22c185(0x17d)](_0x22c185(0x154)),fileCancelButton=fileUploadWrapper[_0x22c185(0x17d)](_0x22c185(0x130)),chatbotToggler=document[_0x22c185(0x17d)]('#chatbot-toggler'),closeChatbot=document[_0x22c185(0x17d)]('#close-chatbot'),API_KEY=_0x22c185(0x15c),API_URL=_0x22c185(0x153)+API_KEY,userData={'message':null,'file':{'data':null,'mime_type':null}},chatHistory=[{'role':_0x22c185(0x13a),'parts':[{'text':_0x22c185(0x17f)}]}],initialInputHeight=messageInput[_0x22c185(0x152)],createMessageElement=(_0x22d569,..._0x509da2)=>{const _0x1923f3=_0x22c185,_0x4d6d24=document[_0x1923f3(0x14f)](_0x1923f3(0x14b));return _0x4d6d24[_0x1923f3(0x173)][_0x1923f3(0x150)]('message',..._0x509da2),_0x4d6d24[_0x1923f3(0x133)]=_0x22d569,_0x4d6d24;},generateBotResponse=async _0x55a7be=>{const _0x3c286a=_0x22c185,_0x2cf401=_0x55a7be[_0x3c286a(0x17d)](_0x3c286a(0x136));chatHistory[_0x3c286a(0x16d)]({'role':_0x3c286a(0x131),'parts':[{'text':userData[_0x3c286a(0x165)]},...userData['file']['data']?[{'inline_data':userData[_0x3c286a(0x145)]}]:[]]});const _0x48bc8d={'method':'POST','headers':{'Content-Type':_0x3c286a(0x15f)},'body':JSON[_0x3c286a(0x12f)]({'contents':chatHistory})};try{const _0x45ea03=await fetch(API_URL,_0x48bc8d),_0x374ed0=await _0x45ea03[_0x3c286a(0x166)]();if(!_0x45ea03['ok'])throw new Error(_0x374ed0['error']['message']);const _0x91a36c=_0x374ed0[_0x3c286a(0x158)][0x0][_0x3c286a(0x157)][_0x3c286a(0x134)][0x0][_0x3c286a(0x179)][_0x3c286a(0x12d)](/\*\*(.*?)\*\*/g,'$1')[_0x3c286a(0x12e)]();_0x2cf401[_0x3c286a(0x16b)]=_0x91a36c,chatHistory[_0x3c286a(0x16d)]({'role':_0x3c286a(0x13a),'parts':[{'text':_0x91a36c}]});}catch(_0x1fe753){console['log'](_0x1fe753),_0x2cf401[_0x3c286a(0x16b)]=_0x1fe753[_0x3c286a(0x165)],_0x2cf401[_0x3c286a(0x13b)][_0x3c286a(0x177)]='#ff0000';}finally{userData['file']={},_0x55a7be[_0x3c286a(0x173)][_0x3c286a(0x14a)](_0x3c286a(0x16a)),chatBody[_0x3c286a(0x144)]({'top':chatBody['scrollHeight'],'behavior':'smooth'});}},handleOutgoingMessage=_0x24f8ce=>{const _0x260221=_0x22c185;_0x24f8ce[_0x260221(0x17e)](),userData[_0x260221(0x165)]=messageInput[_0x260221(0x17b)][_0x260221(0x12e)](),messageInput[_0x260221(0x17b)]='',messageInput[_0x260221(0x17c)](new Event('input')),fileUploadWrapper[_0x260221(0x173)][_0x260221(0x14a)](_0x260221(0x141));const _0x2c2c5e='<div\x20class=\x22message-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(userData[_0x260221(0x145)][_0x260221(0x160)]?'<img\x20src=\x22data:'+userData[_0x260221(0x145)]['mime_type']+';base64,'+userData[_0x260221(0x145)][_0x260221(0x160)]+'\x22\x20class=\x22attachment\x22\x20/>':''),_0x2beaa2=createMessageElement(_0x2c2c5e,_0x260221(0x178));_0x2beaa2['querySelector']('.message-text')[_0x260221(0x16b)]=userData['message'],chatBody[_0x260221(0x15a)](_0x2beaa2),chatBody[_0x260221(0x144)]({'top':chatBody['scrollHeight'],'behavior':_0x260221(0x155)}),setTimeout(()=>{const _0x28a72c=_0x260221,_0x1c053f='<svg\x20class=\x22bot-avatar\x22\x20xmlns=\x22http://www.w3.org/2000/svg\x22\x20width=\x2250\x22\x20height=\x2250\x22\x20viewBox=\x220\x200\x201024\x201024\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d=\x22M738.3\x20287.6H285.7c-59\x200-106.8\x2047.8-106.8\x20106.8v303.1c0\x2059\x2047.8\x20106.8\x20106.8\x20106.8h81.5v111.1c0\x20.7.8\x201.1\x201.4.7l166.9-110.6\x2041.8-.8h117.4l43.6-.4c59\x200\x20106.8-47.8\x20106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7\x20448.2c0-29.5\x2023.9-53.5\x2053.5-53.5s53.5\x2023.9\x2053.5\x2053.5-23.9\x2053.5-53.5\x2053.5-53.5-23.9-53.5-53.5zm157.9\x20267.1c-67.8\x200-123.8-47.5-132.3-109h264.6c-8.6\x2061.5-64.5\x20109-132.3\x20109zm110-213.7c-29.5\x200-53.5-23.9-53.5-53.5s23.9-53.5\x2053.5-53.5\x2053.5\x2023.9\x2053.5\x2053.5-23.9\x2053.5-53.5\x2053.5zM867.2\x20644.5V453.1h26.5c19.4\x200\x2035.1\x2015.7\x2035.1\x2035.1v121.1c0\x2019.4-15.7\x2035.1-35.1\x2035.1h-26.5zM95.2\x20609.4V488.2c0-19.4\x2015.7-35.1\x2035.1-35.1h26.5v191.3h-26.5c-19.4\x200-35.1-15.7-35.1-35.1zM561.5\x20149.6c0\x2023.4-15.6\x2043.3-36.9\x2049.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7\x200-28.6\x2023.3-51.9\x2051.9-51.9s51.9\x2023.3\x2051.9\x2051.9z\x22/></svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22thinking-indicator\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>',_0x452790=createMessageElement(_0x1c053f,_0x28a72c(0x13e),_0x28a72c(0x16a));chatBody[_0x28a72c(0x15a)](_0x452790),chatBody[_0x28a72c(0x144)]({'top':chatBody[_0x28a72c(0x152)],'behavior':_0x28a72c(0x155)}),generateBotResponse(_0x452790);},0x258);};messageInput[_0x22c185(0x17a)](_0x22c185(0x16e),()=>{const _0xfaec7e=_0x22c185;messageInput[_0xfaec7e(0x13b)][_0xfaec7e(0x162)]=initialInputHeight+'px',messageInput[_0xfaec7e(0x13b)][_0xfaec7e(0x162)]=messageInput[_0xfaec7e(0x152)]+'px',document['querySelector'](_0xfaec7e(0x135))[_0xfaec7e(0x13b)]['borderRadius']=messageInput[_0xfaec7e(0x152)]>initialInputHeight?'15px':_0xfaec7e(0x149);}),messageInput['addEventListener'](_0x22c185(0x13d),_0x348266=>{const _0x4ca8bb=_0x22c185,_0x1a7359=_0x348266[_0x4ca8bb(0x170)][_0x4ca8bb(0x17b)][_0x4ca8bb(0x12e)]();_0x348266['key']===_0x4ca8bb(0x161)&&!_0x348266[_0x4ca8bb(0x175)]&&_0x1a7359&&window[_0x4ca8bb(0x171)]>0x300&&handleOutgoingMessage(_0x348266);}),fileInput[_0x22c185(0x17a)](_0x22c185(0x138),()=>{const _0x525b91=_0x22c185,_0x3107cd=fileInput[_0x525b91(0x151)][0x0];if(!_0x3107cd)return;const _0x8a3e69=new FileReader();_0x8a3e69['onload']=_0x3abc4b=>{const _0xb0970a=_0x525b91;fileInput[_0xb0970a(0x17b)]='',fileUploadWrapper[_0xb0970a(0x17d)](_0xb0970a(0x172))[_0xb0970a(0x159)]=_0x3abc4b[_0xb0970a(0x170)][_0xb0970a(0x169)],fileUploadWrapper[_0xb0970a(0x173)][_0xb0970a(0x150)]('file-uploaded');const _0x20f2a1=_0x3abc4b[_0xb0970a(0x170)][_0xb0970a(0x169)][_0xb0970a(0x168)](',')[0x1];userData[_0xb0970a(0x145)]={'data':_0x20f2a1,'mime_type':_0x3107cd[_0xb0970a(0x156)]};},_0x8a3e69['readAsDataURL'](_0x3107cd);}),fileCancelButton[_0x22c185(0x17a)]('click',()=>{const _0x2abcb4=_0x22c185;userData[_0x2abcb4(0x145)]={},fileUploadWrapper['classList']['remove'](_0x2abcb4(0x141));});function _0xcc59(_0xc2dc3f,_0xff867b){const _0x383c80=_0x383c();return _0xcc59=function(_0xcc5967,_0x49293d){_0xcc5967=_0xcc5967-0x12c;let _0x558d0b=_0x383c80[_0xcc5967];return _0x558d0b;},_0xcc59(_0xc2dc3f,_0xff867b);}const picker=new EmojiMart[(_0x22c185(0x14d))]({'theme':'light','skinTonePosition':_0x22c185(0x13f),'previewPosition':_0x22c185(0x13f),'onEmojiSelect':_0x5dd364=>{const _0x90604e=_0x22c185,{selectionStart:_0x5188d1,selectionEnd:_0x4d07f7}=messageInput;messageInput[_0x90604e(0x15d)](_0x5dd364[_0x90604e(0x176)],_0x5188d1,_0x4d07f7,'end'),messageInput[_0x90604e(0x143)]();},'onClickOutside':_0x4d9ebf=>{const _0x39d1c4=_0x22c185;_0x4d9ebf[_0x39d1c4(0x170)]['id']==='emoji-picker'?document[_0x39d1c4(0x180)][_0x39d1c4(0x173)]['toggle'](_0x39d1c4(0x14c)):document[_0x39d1c4(0x180)][_0x39d1c4(0x173)][_0x39d1c4(0x14a)]('show-emoji-picker');}});document[_0x22c185(0x17d)](_0x22c185(0x135))[_0x22c185(0x15a)](picker),sendMessage['addEventListener'](_0x22c185(0x14e),_0x48e4a8=>handleOutgoingMessage(_0x48e4a8)),document[_0x22c185(0x17d)](_0x22c185(0x163))[_0x22c185(0x17a)]('click',()=>fileInput[_0x22c185(0x14e)]()),closeChatbot[_0x22c185(0x17a)]('click',()=>document[_0x22c185(0x180)][_0x22c185(0x173)][_0x22c185(0x14a)](_0x22c185(0x139))),chatbotToggler[_0x22c185(0x17a)](_0x22c185(0x14e),()=>document['body'][_0x22c185(0x173)][_0x22c185(0x164)]('show-chatbot'));
+const chatBody = document.querySelector(".chat-body");
+const messageInput = document.querySelector(".message-input");
+const sendMessage = document.querySelector("#send-message");
+const fileInput = document.querySelector("#file-input");
+const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
+const fileCancelButton = fileUploadWrapper.querySelector("#file-cancel");
+const chatbotToggler = document.querySelector("#chatbot-toggler");
+const closeChatbot = document.querySelector("#close-chatbot");
+
+// API setup
+const API_KEY = "AIzaSyBk8pDuInP0H5xxCqStKAdVaVwFi95cB_o";
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+
+// Initialize user message and file data
+const userData = {
+  message: null,
+  file: {
+    data: null,
+    mime_type: null,
+  },
+};
+
+// Store chat history
+const chatHistory = [
+  {
+    role: "model",
+    parts: [
+      {
+        text: `Tech Cluder is a CPI programming community that promotes learning, knowledge sharing, and problem-solving among students and enthusiasts. The community primarily focuses on programming and graphic design, creating a dynamic platform for networking, collaborative learning, and exploring creative interests. Founded and mentored by Mahfuz Uddin, the senior devloper is Ayaj Uddin Tanif and the senior grapic designer is Jahid Hasan Jihan. Tech Cluder  has established itself as a hub of innovation and engagement. Actively utilizing platforms like Facebook, LinkedIn, and Twitter, the community attracts individuals passionate about programming, design, and technology.
+
+One of the most anticipated events hosted by the community is the "CPI Mind Maze", scheduled to take place at Chittagong Polytechnic Institute. This event is designed to cater to students from various semesters and features two main segments:
+
+Programming Quiz: Targeted at first-semester students, this segment tests basic programming knowledge through a series of quizzes aimed at nurturing their foundational skills.
+Competitive Programming Contest: Focused on advanced-level problem-solving, this segment is for students in higher semesters (3rd, 5th, and 7th), providing a platform to showcase their coding prowess and analytical abilities.
+Rules and Regulations
+Eligibility: Participants must be students of Chittagong Polytechnic Institute and members of the Tech Cluder community.
+Team Formation:
+Programming Quiz: Individual participation.
+Competitive Programming: Teams of 2 members are allowed.
+Registration:
+Participants must register online before the deadline.
+Registration links and instructions will be shared on the Tech Cluder social media channels.
+Conduct During the Event:
+Participants must adhere to the guidelines provided during the orientation.
+Cheating or plagiarism will lead to immediate disqualification.
+Evaluation:
+Quiz: Scores will be based on accuracy and time taken to answer.
+Programming Contest: Solutions will be evaluated based on correctness, efficiency, and innovation.
+Event Process
+Opening Ceremony: The event will begin with an inaugural session, featuring a brief introduction to Tech Cluder’s mission and vision, followed by a welcome speech from the mentors.
+Rounds:
+The Programming Quiz will consist of multiple-choice questions, with increasing levels of difficulty in subsequent rounds.
+The Competitive Programming Contest will challenge participants to solve real-world problems within a fixed time, using coding platforms.
+Break Sessions: Interactive breaks with light refreshments and networking opportunities.
+Closing Ceremony: Winners will be announced, and prizes will be distributed to recognize their achievements.
+Key Highlights
+Prizes: Cash rewards, certificates, and exclusive Tech Cluder merchandise for winners and runners-up.
+Mentor Support: Guidance from experienced programmers and designers throughout the event.
+Networking Opportunities: An excellent chance to connect with like-minded individuals and industry mentors.
+Future Initiatives
+Tech Cluder plans to expand its reach by introducing more events like hackathons, workshops, and webinars. The community also aims to establish collaborations with other institutes, fostering an ecosystem of creativity and innovation.ইভেন্টের সময়সূচি
+all the details of Mindmaze event-
+১. রেজিস্ট্রেশন পর্ব
+•	তারিখ: ১১ ফেব্রুয়ারি – ২০ ফেব্রুয়ারি ২০২৫
+•	প্ল্যাটফর্ম: ইভেন্টের ডেডিকেটেড ওয়েবসাইট
+•	কার্যক্রম:
+o	অংশগ্রহণকারীরা ব্যক্তিগতভাবে বা টিম আকারে রেজিস্ট্রেশন করবে।
+o	নাম, সেমিস্টার, যোগাযোগের তথ্য এবং প্রোগ্রামিং অভিজ্ঞতার বিবরণ দিতে হবে।
+o	রেজিস্ট্রেশন কনফার্মেশন ইমেইল এবং গাইডলাইন পাঠানো হবে।
+২. মক কনটেস্ট
+•	তারিখ: ২৪ ফেব্রুয়ারি ২০২৫
+•	উদ্দেশ্য:
+o	প্রতিযোগিতার পরিবেশের সাথে পরিচিত করা।
+o	শিক্ষার্থীদের অনুশীলনের সুযোগ দেওয়া।
+•	কাঠামো:
+o	অনলাইন ভিত্তিক (যেমন HackerRank/Codeforces)।
+o	নতুনদের জন্য কুইজ এবং উন্নতদের জন্য কোডিং সমস্যার সমন্বয়।
+o	সময়কাল: ২ ঘণ্টা
+৩. প্রধান ইভেন্ট – Mindmaze প্রতিযোগিতার দিন
+•	তারিখ: ২৭ ফেব্রুয়ারি ২০২৫
+•	স্থান: CPI কম্পিউটার ল্যাব
+•	সময়সূচি:
+o	সকাল ৯:০০ – ৯:৩০: রেজিস্ট্রেশন যাচাইকরণ ও উদ্বোধনী অনুষ্ঠান
+o	সকাল ৯:৩০ – ১০:৩০: প্রোগ্রামিং কুইজ (প্রথম সেমিস্টার)
+o	সকাল ১১:০০ – দুপুর ১:০০: প্রতিযোগিতামূলক প্রোগ্রামিং (৩য়-৭ম সেমিস্টার)
+o	দুপুর ১:০০ – ১:৩০: ব্রেক এবং নেটওয়ার্কিং
+o	দুপুর ১:৩০ – ২:৩০: পুরস্কার বিতরণ ও সমাপনী অনুষ্ঠান
+
+প্রতিযোগিতার বিবরণ
+প্রোগ্রামিং কুইজ (১ম সেমিস্টার)
+•	সময়কাল: ৬০ মিনিট
+•	ফরম্যাট:
+o	৫০টি মাল্টিপল চয়েস প্রশ্ন।
+o	বিষয়: প্রোগ্রামিংয়ের বেসিক ধারণা, লজিক এবং সমস্যা সমাধান।
+•	মূল্যায়ন: সঠিক উত্তরের ভিত্তিতে স্বয়ংক্রিয় স্কোরিং।
+প্রতিযোগিতামূলক প্রোগ্রামিং (৩য়, ৫ম, ৭ম সেমিস্টার)
+•	সময়কাল: ২ ঘণ্টা
+•	ফরম্যাট:
+o	৮-১০টি প্রোগ্রামিং সমস্যা বিভিন্ন স্তরের।
+o	বিষয়: ডাটা স্ট্রাকচার, অ্যালগরিদম এবং সমস্যা সমাধান।
+•	প্ল্যাটফর্ম: অনলাইন ভিত্তিক প্ল্যাটফর্ম।
+•	মূল্যায়ন: সমস্যার সংখ্যা এবং সময়ের ভিত্তিতে।
+পুরস্কার ও সম্মাননা
+•	১ম পুরস্কার: ট্রফি + সনদ + ক্যাশ বা টেক গ্যাজেট
+•	২য় পুরস্কার: মেডেল + সনদ
+•	৩য় পুরস্কার: এক্সিলেন্স সার্টিফিকেট
+•	অংশগ্রহণ সনদ: সকল অংশগ্রহণকারীদের জন্য
+Tech Cluder  has established on 11 feb 2024`,
+      },
+    ],
+  },
+];
+const initialInputHeight = messageInput.scrollHeight;
+
+// Create message element with dynamic classes and return it
+const createMessageElement = (content, ...classes) => {
+  const div = document.createElement("div");
+  div.classList.add("message", ...classes);
+  div.innerHTML = content;
+  return div;
+};
+
+// Generate bot response using API
+const generateBotResponse = async (incomingMessageDiv) => {
+  const messageElement = incomingMessageDiv.querySelector(".message-text");
+
+  // Add user message to chat history
+  chatHistory.push({
+    role: "user",
+    parts: [
+      { text: userData.message },
+      ...(userData.file.data ? [{ inline_data: userData.file }] : []),
+    ],
+  });
+
+  // API request options
+  const requestOptions = {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      contents: chatHistory,
+    }),
+  };
+
+  try {
+    // Fetch bot response from API
+    const response = await fetch(API_URL, requestOptions);
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error.message);
+
+    // Extract and display bot's response text
+    const apiResponseText = data.candidates[0].content.parts[0].text
+      .replace(/\*\*(.*?)\*\*/g, "$1")
+      .trim();
+    messageElement.innerText = apiResponseText;
+
+    // Add bot response to chat history
+    chatHistory.push({
+      role: "model",
+      parts: [{ text: apiResponseText }],
+    });
+  } catch (error) {
+    // Handle error in API response
+    console.log(error);
+    messageElement.innerText = error.message;
+    messageElement.style.color = "#ff0000";
+  } finally {
+    // Reset user's file data, removing thinking indicator and scroll chat to bottom
+    userData.file = {};
+    incomingMessageDiv.classList.remove("thinking");
+    chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
+  }
+};
+
+// Handle outgoing user messages
+const handleOutgoingMessage = (e) => {
+  e.preventDefault();
+  userData.message = messageInput.value.trim();
+  messageInput.value = "";
+  messageInput.dispatchEvent(new Event("input"));
+  fileUploadWrapper.classList.remove("file-uploaded");
+
+  // Create and display user message
+  const messageContent = `<div class="message-text"></div>
+                          ${
+                            userData.file.data
+                              ? `<img src="data:${userData.file.mime_type};base64,${userData.file.data}" class="attachment" />`
+                              : ""
+                          }`;
+
+  const outgoingMessageDiv = createMessageElement(
+    messageContent,
+    "user-message"
+  );
+  outgoingMessageDiv.querySelector(".message-text").innerText =
+    userData.message;
+  chatBody.appendChild(outgoingMessageDiv);
+  chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
+
+  // Simulate bot response with thinking indicator after a delay
+  setTimeout(() => {
+    const messageContent = `<svg class="bot-avatar" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+            <path
+              d="M738.3 287.6H285.7c-59 0-106.8 47.8-106.8 106.8v303.1c0 59 47.8 106.8 106.8 106.8h81.5v111.1c0 .7.8 1.1 1.4.7l166.9-110.6 41.8-.8h117.4l43.6-.4c59 0 106.8-47.8 106.8-106.8V394.5c0-59-47.8-106.9-106.8-106.9zM351.7 448.2c0-29.5 23.9-53.5 53.5-53.5s53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5-53.5-23.9-53.5-53.5zm157.9 267.1c-67.8 0-123.8-47.5-132.3-109h264.6c-8.6 61.5-64.5 109-132.3 109zm110-213.7c-29.5 0-53.5-23.9-53.5-53.5s23.9-53.5 53.5-53.5 53.5 23.9 53.5 53.5-23.9 53.5-53.5 53.5zM867.2 644.5V453.1h26.5c19.4 0 35.1 15.7 35.1 35.1v121.1c0 19.4-15.7 35.1-35.1 35.1h-26.5zM95.2 609.4V488.2c0-19.4 15.7-35.1 35.1-35.1h26.5v191.3h-26.5c-19.4 0-35.1-15.7-35.1-35.1zM561.5 149.6c0 23.4-15.6 43.3-36.9 49.7v44.9h-30v-44.9c-21.4-6.5-36.9-26.3-36.9-49.7 0-28.6 23.3-51.9 51.9-51.9s51.9 23.3 51.9 51.9z"/></svg>
+          <div class="message-text">
+            <div class="thinking-indicator">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>`;
+
+    const incomingMessageDiv = createMessageElement(
+      messageContent,
+      "bot-message",
+      "thinking"
+    );
+    chatBody.appendChild(incomingMessageDiv);
+    chatBody.scrollTo({ top: chatBody.scrollHeight, behavior: "smooth" });
+    generateBotResponse(incomingMessageDiv);
+  }, 600);
+};
+
+// Adjust input field height dynamically
+messageInput.addEventListener("input", () => {
+  messageInput.style.height = `${initialInputHeight}px`;
+  messageInput.style.height = `${messageInput.scrollHeight}px`;
+  document.querySelector(".chat-form").style.borderRadius =
+    messageInput.scrollHeight > initialInputHeight ? "15px" : "32px";
+});
+
+// Handle Enter key press for sending messages
+messageInput.addEventListener("keydown", (e) => {
+  const userMessage = e.target.value.trim();
+  if (
+    e.key === "Enter" &&
+    !e.shiftKey &&
+    userMessage &&
+    window.innerWidth > 768
+  ) {
+    handleOutgoingMessage(e);
+  }
+});
+
+// Handle file input change and preview the selected file
+fileInput.addEventListener("change", () => {
+  const file = fileInput.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    fileInput.value = "";
+    fileUploadWrapper.querySelector("img").src = e.target.result;
+    fileUploadWrapper.classList.add("file-uploaded");
+    const base64String = e.target.result.split(",")[1];
+
+    // Store file data in userData
+    userData.file = {
+      data: base64String,
+      mime_type: file.type,
+    };
+  };
+
+  reader.readAsDataURL(file);
+});
+
+// Cancel file upload
+fileCancelButton.addEventListener("click", () => {
+  userData.file = {};
+  fileUploadWrapper.classList.remove("file-uploaded");
+});
+
+// Initialize emoji picker and handle emoji selection
+const picker = new EmojiMart.Picker({
+  theme: "light",
+  skinTonePosition: "none",
+  previewPosition: "none",
+  onEmojiSelect: (emoji) => {
+    const { selectionStart: start, selectionEnd: end } = messageInput;
+    messageInput.setRangeText(emoji.native, start, end, "end");
+    messageInput.focus();
+  },
+  onClickOutside: (e) => {
+    if (e.target.id === "emoji-picker") {
+      document.body.classList.toggle("show-emoji-picker");
+    } else {
+      document.body.classList.remove("show-emoji-picker");
+    }
+  },
+});
+
+document.querySelector(".chat-form").appendChild(picker);
+
+sendMessage.addEventListener("click", (e) => handleOutgoingMessage(e));
+document
+  .querySelector("#file-upload")
+  .addEventListener("click", () => fileInput.click());
+closeChatbot.addEventListener("click", () =>
+  document.body.classList.remove("show-chatbot")
+);
+chatbotToggler.addEventListener("click", () =>
+  document.body.classList.toggle("show-chatbot")
+);
