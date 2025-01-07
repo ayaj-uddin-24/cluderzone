@@ -9,6 +9,7 @@ import Blogs from "./pages/Blogs";
 import Post from "./pages/Post";
 export const url = import.meta.env.VITE_BACKEND_URL;
 
+
 const App = () => {
   return (
     <BrowserRouter>
