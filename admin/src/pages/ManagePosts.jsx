@@ -7,7 +7,6 @@ import axios from "axios";
 
 const ManagePosts = () => {
   const { posts } = useContext(BlogContext);
-  console.log(posts)
 
   const removePost = async (id) => {
     const res = await axios.delete(`${url}/api/post/remove-post/${id}`);

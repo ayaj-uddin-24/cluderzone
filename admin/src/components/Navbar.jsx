@@ -5,7 +5,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between py-3 font-medium px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] shadow">
+    <nav className="flex items-center justify-between py-5 font-medium px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] shadow">
       {/* Navbar logo */}
       <Link to="/" className="text-2xl font-semibold flex items-center gap-3">
         Admin
@@ -13,11 +13,22 @@ const Navbar = () => {
 
       {/* Navbar menu for larger screens */}
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
+        <NavLink to="/" className="flex flex-col items-center gap-1">
+          <p>Home</p>
+          <hr className="w-2/4 border-none bg-gray-700 h-[1.5px] hidden" />
+        </NavLink>
         <NavLink
           to="/manage-posts"
           className="flex flex-col items-center gap-1"
         >
           <p>Manage Posts</p>
+          <hr className="w-2/4 border-none bg-gray-700 h-[1.5px] hidden" />
+        </NavLink>
+        <NavLink
+          to="/manage-candidates"
+          className="flex flex-col items-center gap-1"
+        >
+          <p>Manage Candidates</p>
           <hr className="w-2/4 border-none bg-gray-700 h-[1.5px] hidden" />
         </NavLink>
         <NavLink
@@ -68,11 +79,25 @@ const Navbar = () => {
         {/* Sidebar navigation items */}
         <div className="flex flex-col">
           <NavLink
+            to="/"
+            onClick={() => setVisible(false)}
+            className="border p-6 text-center"
+          >
+            Home
+          </NavLink>
+          <NavLink
             to="/manage-posts"
             onClick={() => setVisible(false)}
             className="border p-6 text-center"
           >
             Manage Posts
+          </NavLink>
+          <NavLink
+            to="/manage-candidates"
+            onClick={() => setVisible(false)}
+            className="border p-6 text-center"
+          >
+            Manage Candidates
           </NavLink>
           <NavLink
             to="/logout"

@@ -8,11 +8,12 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Post from "./pages/Post";
 export const url = import.meta.env.VITE_BACKEND_URL;
-
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ToastContainer />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

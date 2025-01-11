@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 import ManagePosts from "./pages/ManagePosts";
 import AddPost from "./pages/AddPost";
 import UpdatePost from "./pages/UpdatePost";
+import ManageCandidates from "./pages/ManageCandidates";
+import Home from "./pages/Home";
 export const url = import.meta.env.VITE_BACKEND_URL;
 
 const App = () => {
@@ -16,10 +18,7 @@ const App = () => {
       {user ? <Navbar /> : <></>}
       <ToastContainer />
       <Routes>
-        <Route
-          path="/"
-          element={user ? <Navigate to="/manage-posts" /> : <Login />}
-        />
+        <Route path="/" element={user ? <Home /> : <Login />} />
         <Route
           path="/manage-posts"
           element={user ? <ManagePosts /> : <Navigate to="/" />}
@@ -27,6 +26,10 @@ const App = () => {
         <Route
           path="/add-post"
           element={user ? <AddPost /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/manage-candidates"
+          element={user ? <ManageCandidates /> : <Navigate to="/" />}
         />
         <Route
           path="/update-post/:id"

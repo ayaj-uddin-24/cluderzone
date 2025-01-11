@@ -22,7 +22,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post(`${url}/api/user/login-user`, userData, {
+      const res = await axios.post(`${url}/api/user/admin-login`, userData, {
         headers: {
           "Content-Type": "application/json",
         },
