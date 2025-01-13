@@ -9,22 +9,26 @@ const RegistrationForm = () => {
     teamName: "",
     candidate1: "",
     candidate2: "",
+    candidate1Roll: "",
+    candidate2Roll: "",
     email: "",
     phone: "",
     semester: "",
     event: "",
   });
 
+  // Handle form input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevData) => ({
+      ...prevData,
       [name]: value,
-    });
+    }));
   };
+
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
       const res = await axios.post(`${url}/api/user/register`, formData);
 
@@ -34,15 +38,15 @@ const RegistrationForm = () => {
           teamName: "",
           candidate1: "",
           candidate2: "",
+          candidate1Roll: "",
+          candidate2Roll: "",
           email: "",
           phone: "",
           semester: "",
           event: "",
         });
-
-        window.location.replace("/");
-
         toast.success(res.data.message);
+        window.location.replace("/");
       } else {
         toast.error(res.data.message);
       }
@@ -53,8 +57,9 @@ const RegistrationForm = () => {
 
   return (
     <div className="flex items-center min-h-screen justify-center bg-gray-100 py-10">
-      <div className="flex flex-col md:flex-row w-full max-w-4xl px-4">
-        <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8">
+      <div className="flex flex-col md:flex-row w-full max-w-5xl px-4 sm:px-[5vw]">
+        {/* Left Section */}
+        <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8 rounded-l-lg shadow-lg">
           <h1 className="text-4xl font-bold mb-4">Welcome to Our Event!</h1>
           <p className="text-lg">
             Join us for an unforgettable experience filled with learning,
@@ -63,22 +68,22 @@ const RegistrationForm = () => {
           <img
             src="/event-grapics.jpg"
             alt="Event Graphic"
-            className="mt-6 rounded-lg shadow-lg w-1/2"
+            className="mt-6 rounded-lg shadow-lg w-2/3"
           />
         </div>
-        <div className="w-full md:w-1/2">
-          <form
-            className="w-full bg-white px-4 md:px-8 py-8 shadow-md"
-            onSubmit={handleSubmit}
-          >
+
+        {/* Right Section */}
+        <div className="w-full md:w-1/2 bg-white p-6 md:p-10 rounded-r-lg shadow-lg">
+          <form onSubmit={handleSubmit}>
             <h2 className="text-2xl font-bold mb-6 text-center">
               Event Registration
             </h2>
 
+            {/* Semester Selection */}
             <div className="mb-6">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="semester"
+                className="block text-gray-700 text-sm font-bold mb-2"
               >
                 Select Semester
               </label>
@@ -93,17 +98,19 @@ const RegistrationForm = () => {
                 <option value="" disabled>
                   Choose semester
                 </option>
-                <option value="1st">1st</option>
-                <option value="3rd">3rd</option>
-                <option value="5th">5th</option>
-                <option value="7th">7th</option>
+                {["1st", "3rd", "5th", "7th"].map((sem) => (
+                  <option key={sem} value={sem}>
+                    {sem}
+                  </option>
+                ))}
               </select>
             </div>
 
+            {/* Event Selection */}
             <div className="mb-6">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="event"
+                className="block text-gray-700 text-sm font-bold mb-2"
               >
                 Select Event
               </label>
@@ -119,99 +126,121 @@ const RegistrationForm = () => {
                   Choose an event
                 </option>
                 <option value="coding">Coding Contest</option>
-                {formData.semester !== "1st" ? (
-                  ""
-                ) : (
+                {formData.semester === "1st" && (
                   <option value="quiz">Quiz Contest</option>
                 )}
               </select>
             </div>
 
+            {/* Conditional Fields */}
             {formData.event === "coding" ? (
-              <div className="mb-4">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
-                  htmlFor="teamName"
-                >
-                  Team Name
-                </label>
-                <input
-                  type="text"
-                  id="teamName"
-                  name="teamName"
-                  value={formData.teamName}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
-                  required
-                />
-              </div>
-            ) : (
-              <div className="mb-4">
-                <label
-                  className="block text-gray-700 text-sm font-bold mb-2"
-                  htmlFor="fullName"
-                >
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  id="fullName"
-                  name="fullName"
-                  value={formData.fullName}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
-                  required
-                />
-              </div>
-            )}
-
-            {formData.event === "coding" ? (
-              <div className="mb-4 flex gap-3">
-                <div>
+              <>
+                <div className="mb-4">
                   <label
+                    htmlFor="teamName"
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="candidate1"
                   >
-                    Candidate 1
+                    Team Name
                   </label>
                   <input
                     type="text"
-                    id="candidate1"
-                    name="candidate1"
-                    value={formData.candidate1}
+                    id="teamName"
+                    name="teamName"
+                    value={formData.teamName}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
-                    placeholder="short name"
                     required
                   />
                 </div>
-                <div>
+                <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {["candidate1", "candidate2"].map((candidate, index) => (
+                    <div key={candidate}>
+                      <label
+                        htmlFor={candidate}
+                        className="block text-gray-700 text-sm font-bold mb-2"
+                      >
+                        Candidate {index + 1}
+                      </label>
+                      <input
+                        type="text"
+                        id={candidate}
+                        name={candidate}
+                        value={formData[candidate]}
+                        onChange={handleChange}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
+                        required
+                      />
+                    </div>
+                  ))}
+                </div>
+                <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {["candidate1Roll", "candidate2Roll"].map(
+                    (candidateRoll, index) => (
+                      <div key={candidateRoll}>
+                        <label
+                          htmlFor={candidateRoll}
+                          className="block text-gray-700 text-sm font-bold mb-2"
+                        >
+                          Candidate {index + 1} Roll
+                        </label>
+                        <input
+                          type="text"
+                          id={candidateRoll}
+                          name={candidateRoll}
+                          value={formData[candidateRoll]}
+                          onChange={handleChange}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
+                          required
+                        />
+                      </div>
+                    )
+                  )}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="mb-4">
                   <label
+                    htmlFor="fullName"
                     className="block text-gray-700 text-sm font-bold mb-2"
-                    htmlFor="candidate2"
                   >
-                    Candidate 2
+                    Full Name
                   </label>
                   <input
                     type="text"
-                    id="candidate2"
-                    name="candidate2"
-                    value={formData.candidate2}
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
-                    placeholder="short name"
                     required
                   />
                 </div>
-              </div>
-            ) : (
-              <></>
+                <div className="mb-4">
+                  <label
+                    htmlFor="candidate1Roll"
+                    className="block text-gray-700 text-sm font-bold mb-2"
+                  >
+                    Institute Roll
+                  </label>
+                  <input
+                    type="number"
+                    id="candidate1Roll"
+                    name="candidate1Roll"
+                    value={formData.candidate1Roll}
+                    onChange={handleChange}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:border-blue-500"
+                    required
+                  />
+                </div>
+              </>
             )}
 
+            {/* Email */}
             <div className="mb-4">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="email"
+                className="block text-gray-700 text-sm font-bold mb-2"
               >
                 Email Address
               </label>
@@ -226,10 +255,11 @@ const RegistrationForm = () => {
               />
             </div>
 
+            {/* Phone */}
             <div className="mb-4">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="phone"
+                className="block text-gray-700 text-sm font-bold mb-2"
               >
                 Phone Number
               </label>
@@ -243,6 +273,7 @@ const RegistrationForm = () => {
                 required
               />
             </div>
+
             <button
               type="submit"
               className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring"

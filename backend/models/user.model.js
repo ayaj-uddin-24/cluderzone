@@ -5,6 +5,8 @@ const userSchema = mongoose.Schema({
   teamName: { type: String },
   candidate1: { type: String },
   candidate2: { type: String },
+  candidate1Roll: { type: Number },
+  candidate2Roll: { type: Number },
   email: { type: String, required: true },
   phone: { type: Number, required: true },
   semester: { type: String, required: true },

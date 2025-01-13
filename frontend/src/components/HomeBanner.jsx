@@ -34,17 +34,29 @@ const HomeBanner = () => {
     <section
       className="relative bg-cover bg-center h-screen"
       style={{
-        backgroundImage: "url('https://example.com/your-banner-image.jpg')",
+        backgroundImage: "url('../../public/banner.webp')",
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex items-center justify-center px-4">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black opacity-75"></div>
+
+      {/* Content */}
+      <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center text-white space-y-6 max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow-lg">
+          <h1
+            className="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow-md"
+            aria-label="TechCluder Community Event"
+          >
             TechCluder Community Event
           </h1>
-          <p className="text-base sm:text-lg md:text-xl font-light leading-relaxed">
+          <p
+            className="text-base sm:text-lg md:text-xl leading-relaxed font-medium"
+            aria-label="Event details: February 27, 2025, at Chattogram Polytechnic"
+          >
             Join us at Chattogram Polytechnic on February 27, 2025
           </p>
+
+          {/* Countdown Timer */}
           <div className="flex justify-center gap-4 md:gap-6 text-sm sm:text-lg md:text-2xl">
             {[
               { value: days, label: "Days" },
@@ -55,6 +67,7 @@ const HomeBanner = () => {
               <div
                 key={index}
                 className="flex flex-col items-center bg-black/70 backdrop-blur-md p-3 sm:p-4 rounded-lg shadow-md"
+                aria-label={`${time.value} ${time.label}`}
               >
                 <p className="font-bold text-xl sm:text-2xl md:text-4xl">
                   {time.value}
@@ -63,9 +76,12 @@ const HomeBanner = () => {
               </div>
             ))}
           </div>
+
+          {/* Call-to-Action Button */}
           <NavLink
             to="/registration"
             className="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            aria-label="Register for the TechCluder Community Event"
           >
             Register Now
           </NavLink>

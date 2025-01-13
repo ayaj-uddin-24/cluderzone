@@ -70,7 +70,7 @@ const Post = () => {
   return (
     <div className="container mx-auto p-6 px-5 sm:px-[5vw] lg:px-[9vw]">
       <Helmet>
-        <title>{postDetails.title} | ShikhonBD</title>
+        <title>{postDetails.title} | CluderZone</title>
         <meta
           name="description"
           content={postDetails.content
@@ -92,10 +92,12 @@ const Post = () => {
           <img
             src={postDetails.imageUrl}
             alt={postDetails.title || "Post image"}
-            className="w-full rounded-lg mb-5"
+            className="w-full rounded-lg mb-5 shadow-lg"
           />
         )}
-        <h1 className="font-bold text-gray-800 text-xl sm:text-2xl md:text-3xl lg:text-4xl">{postDetails.title}</h1>
+        <h1 className="font-bold text-gray-800 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+          {postDetails.title}
+        </h1>
         <div className="mt-2 mb-4 text-sm text-gray-500">
           <p>
             Category:{" "}
@@ -107,7 +109,7 @@ const Post = () => {
         </div>
 
         <section
-          className="post-content text-gray-700 leading-7"
+          className="post-content text-gray-700 leading-7 space-y-4"
           dangerouslySetInnerHTML={{
             __html: sanitizeHTML(postDetails.content),
           }}
@@ -120,23 +122,23 @@ const Post = () => {
           <span className="font-medium text-gray-700">Share:</span>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4">
             <FacebookShareButton url={shareUrl} quote={titleText}>
-              <FacebookIcon size={40} round />
+              <FacebookIcon size={40} round className="hover:bg-blue-600 p-1 rounded-full" />
             </FacebookShareButton>
             <TwitterShareButton url={shareUrl} title={titleText}>
-              <TwitterIcon size={40} round />
+              <TwitterIcon size={40} round className="hover:bg-blue-400 p-1 rounded-full" />
             </TwitterShareButton>
             <PinterestShareButton
               url={shareUrl}
               media={postDetails.imageUrl || ""}
               description={titleText}
             >
-              <PinterestIcon size={40} round />
+              <PinterestIcon size={40} round className="hover:bg-red-600 p-1 rounded-full" />
             </PinterestShareButton>
             <WhatsappShareButton url={shareUrl} title={titleText}>
-              <WhatsappIcon size={40} round />
+              <WhatsappIcon size={40} round className="hover:bg-green-500 p-1 rounded-full" />
             </WhatsappShareButton>
             <EmailShareButton url={shareUrl} subject={titleText}>
-              <EmailIcon size={40} round />
+              <EmailIcon size={40} round className="hover:bg-gray-300 p-1 rounded-full" />
             </EmailShareButton>
           </div>
         </div>
@@ -151,6 +153,7 @@ const Post = () => {
               <Link
                 key={post._id}
                 to={`/post/${encodeURIComponent(post.title)}`}
+                className="hover:shadow-lg hover:border hover:border-gray-200 transition-all"
               >
                 <PostItem
                   id={post._id}
@@ -162,7 +165,7 @@ const Post = () => {
               </Link>
             ))
           ) : (
-            <p>No related posts available here</p>
+            <p className="text-gray-600">No related posts available here</p>
           )}
         </div>
       </section>

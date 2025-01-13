@@ -136,11 +136,11 @@ const AddPost = () => {
           <option value="" disabled>
             Select a category
           </option>
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-          <option value="D">D</option>
-          <option value="E">E</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Programming">Programming</option>
+          <option value="Event">Event</option>
+          <option value="Hacking">Hacking</option>
+          <option value="Digital Marketing">Digital Marketing</option>
         </select>
 
         <div>

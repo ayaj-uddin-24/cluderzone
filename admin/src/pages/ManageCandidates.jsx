@@ -70,6 +70,7 @@ const ManageCandidates = () => {
                       {event === "coding" ? <th>Candidates</th> : <></>}
                       <th>Email</th>
                       <th>Phone</th>
+                      <th>Roll</th>
                       <th>Semester</th>
                       <th>Remove</th>
                     </tr>
@@ -93,6 +94,12 @@ const ManageCandidates = () => {
                         )}
                         <td>{candidate.email}</td>
                         <td>{candidate.phone}</td>
+                        <td>
+                          {candidate.candidate1Roll}{" "}
+                          {candidate.candidate2Roll
+                            ? `, ${candidate.candidate2Roll} `
+                            : ""}
+                        </td>
                         <td>{candidate.semester}</td>
                         <td>
                           <button
