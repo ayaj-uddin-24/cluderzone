@@ -32,7 +32,7 @@ const HomeBanner = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center h-screen"
+      className="relative bg-cover bg-center h-[500px] sm:h-screen"
       style={{
         backgroundImage: "url('../../public/banner.webp')",
       }}

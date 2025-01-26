@@ -13,7 +13,7 @@ const BlogSection = () => {
   }, [posts]);
 
   return (
-    <section className="bg-white text-black mb-10 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+    <section className="bg-white text-black mt-30 mb-10 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
       {/* Section Title */}
       <h1
         className="text-4xl text-center font-bold mt-5"

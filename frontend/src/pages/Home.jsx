@@ -3,6 +3,7 @@ import HomeBanner from "../components/HomeBanner";
 import Events from "../components/Events";
 import Mission from "../components/Mission";
 import BlogSection from "../components/BlogSection";
+import { RxCross2 } from "react-icons/rx";
 
 const Home = () => {
   const [showPopUp, setShowPopUp] = useState(false);
@@ -11,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopUp(true);
-    }, 2000);
+    }, 1000);
 
     // Cleanup the timer
     return () => clearTimeout(timer);
@@ -27,14 +28,13 @@ const Home = () => {
       {/* Popup Message */}
       {showPopUp && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/50">
-          <div className="bg-white p-1 rounded-lg shadow-lg space-y-4 text-center">
-            <img src="/popup.jpg" className="w-96" alt="" />
-            <button
+          <div className="rounded-lg shadow-lg space-y-4 text-center relative mx-5 sm:mx-0">
+            <img src="/popup.jpg" className="w-96" alt="Popup image" />
+            <RxCross2
+              size={22}
+              className="absolute text-white -top-[27px] -right-2.5 cursor-pointer"
               onClick={() => setShowPopUp(false)}
-              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition"
-            >
-              Close
-            </button>
+            />
           </div>
         </div>
       )}

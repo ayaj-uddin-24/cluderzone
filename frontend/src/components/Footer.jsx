@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,13 +21,13 @@ const Footer = () => {
           <ul className="flex justify-center space-x-8 text-sm font-medium">
             {["Home", "About", "Blogs", "Registration"].map((link) => (
               <li key={link}>
-                <a
-                  href={`#${link.toLowerCase()}`}
+                <Link
+                  to={`/${link.toLowerCase()}`}
                   className="hover:text-gray-400 transition-colors"
                   aria-label={`Navigate to ${link}`}
                 >
                   {link}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

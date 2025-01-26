@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <div className="my-10 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+    <div className="mt-5 sm:my-10 px-5 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
       {/* Section Title */}
       <h1 className="text-4xl font-bold text-center" aria-label="Our Mission">
         Our Mission
