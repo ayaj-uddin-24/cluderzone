@@ -5,25 +5,23 @@ const events = [
     id: 1,
     image:
       "url(https://www.si.com/.image/t_share/MTY4MTkyMjczODM4OTc0ODQ5/cfp-trophy-deitschjpg.jpg)",
-    month: "Jan",
-    date: 13,
-    time: "7 pm",
-    title: "2020 National Championship",
+    month: "Feb",
+    date: 26,
+    time: "10:30 pm",
+    title: "Programming Quiz (For 1st-Semester Students)",
     content:
-      "The College Football Playoff (CFP) determines the national champion of the top division of college football. The format fits within the academic calendar and preserves the sport’s unique and compelling regular season.",
-    sponsor: "Mercedes-Benz Superdome",
+      "🔹 An engaging MCQ quiz on programming fundamentals.<br/>🔹 Covers syntax, logic, algorithms, data types, loops, and functions.<br/>🔹 Helps beginners test knowledge and build confidence.<br/>🔹 A great chance to learn and compete in a supportive space.<br/>👉 Ideal for: 1st-semester students strengthening basics before tackling advanced topics.",
   },
   {
     id: 2,
     image:
       "url(https://www.si.com/.image/t_share/MTY4MTkyMjczODM4OTc0ODQ5/cfp-trophy-deitschjpg.jpg)",
-    month: "Jan",
-    date: 13,
-    time: "7 pm",
-    title: "2020 National Championship",
+    month: "Feb",
+    date: 26,
+    time: "12:00 pm",
+    title: "Competitive Coding (Semesters 3, 5 & 7)",
     content:
-      "The College Football Playoff (CFP) determines the national champion of the top division of college football. The format fits within the academic calendar and preserves the sport’s unique and compelling regular season.",
-    sponsor: "Mercedes-Benz Superdome",
+      "🚀 A timed coding challenge where participants solve real-world problems.<br/>🔹 Focuses on problem-solving, algorithms, and efficiency.<br />🔹 Covers data structures, logic, and math-based coding.<br />🔹 Tests critical thinking and optimization under constraints.<br />🔹 Features varying difficulty levels in a competitive format.<br />👉 Ideal for: Intermediate and advanced programmers preparing for coding contests.",
   },
 ];
 
@@ -37,10 +35,15 @@ const Events = () => {
       >
         Our Events
       </h2>
-      <p className="text-sm text-center pt-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minus
-        tempora natus a pariatur voluptate! <br /> Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Possimus, earum.
+      <p className="text-sm text-center px-3 pt-4 w-full sm:w-[75%] mx-auto">
+        CPI Mind Maze is an <b>exciting programming competition</b> designed to
+        challenge and inspire students at{" "}
+        <b>Chittagong Polytechnic Institute</b>. Organized by <b>Tech Cluder</b>
+        , this event provides a platform for learners of all levels to{" "}
+        <b>
+          test their coding skills, think critically, and compete for top
+          honors.
+        </b>
       </p>
 
       {/* Events List */}
@@ -70,7 +73,7 @@ const Events = () => {
               {/* Event Content */}
               <div className="p-4 font-normal text-gray-800 md:w-3/4">
                 <h1
-                  className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-800"
+                  className="mb-4 text-3xl font-bold leading-none tracking-tight text-gray-800"
                   aria-label={`Event Title: ${item.title}`}
                 >
                   {item.title}
@@ -78,26 +81,8 @@ const Events = () => {
                 <p
                   className="leading-normal"
                   aria-label={`Details: ${item.content}`}
-                >
-                  {item.content}
-                </p>
-
-                {/* Sponsor Details */}
-                <div className="flex flex-row items-center mt-4 text-gray-700">
-                  <div
-                    className="w-1/2"
-                    aria-label={`Sponsor: ${item.sponsor}`}
-                  >
-                    {item.sponsor}
-                  </div>
-                  <div className="w-1/2 flex justify-end">
-                    <img
-                      src="https://collegefootballplayoff.com/images/section_logo.png"
-                      alt="Sponsor Logo"
-                      className="w-8"
-                    />
-                  </div>
-                </div>
+                  dangerouslySetInnerHTML={{ __html: item.content }}
+                ></p>
               </div>
             </div>
           </div>

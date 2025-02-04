@@ -9,6 +9,7 @@ import Blogs from "./pages/Blogs";
 import Post from "./pages/Post";
 export const url = import.meta.env.VITE_BACKEND_URL;
 import { ToastContainer } from "react-toastify";
+import RulesPage from "./pages/RulesPage";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/post/:title" element={<Post />} />
+        <Route path="/rules-book" element={<RulesPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

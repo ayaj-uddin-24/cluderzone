@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopUp(true);
-    }, 1000);
+    }, 10000);
 
     // Cleanup the timer
     return () => clearTimeout(timer);

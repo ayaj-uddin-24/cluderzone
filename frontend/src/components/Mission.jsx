@@ -7,10 +7,12 @@ const Mission = () => {
       <h1 className="text-4xl font-bold text-center" aria-label="Our Mission">
         Our Mission
       </h1>
-      <p className="text-sm text-center pt-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolor,
-        quibusdam vel corrupti sunt at. <br /> Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Consectetur, vitae.
+      <p className="text-sm text-center pt-4 w-full sm:w-[75%] mx-auto">
+        At <b>Tech Cluder</b>, our mission is to{" "}
+        <b>empower, inspire, and nurture</b> the next generation of programmers
+        and problem-solvers. Through <b>CPI Mind Maze</b>, we aim to create an
+        environment where students can <b>learn, compete, and grow</b> in the
+        field of programming.
       </p>
 
       {/* Mission Details */}
@@ -25,25 +27,38 @@ const Mission = () => {
 
         {/* Mission Content */}
         <div>
-          {[1, 2, 3, 4].map((index) => (
-            <div key={index} className="mb-6">
-              <h2
-                className="text-2xl font-bold"
-                aria-label={`Mission Point ${index}`}
-              >
-                Lorem, ipsum.
-              </h2>
-              <p
-                className="text-sm pt-2 text-gray-500 leading-relaxed"
-                aria-label={`Details for mission point ${index}`}
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error
-                eum nulla animi aut autem nihil? Optio, hic, culpa explicabo
-                similique dolor nihil est aut quod corporis, nemo distinctio
-                aliquid voluptatibus!
-              </p>
-            </div>
-          ))}
+          <p>
+            🔹 <b>Promote a Coding Culture –</b> We make coding accessible and
+            enjoyable for all, from beginners to advanced programmers. By
+            fostering a competitive yet collaborative environment, we help
+            students build a strong problem-solving mindset.
+          </p>{" "}
+          <br />
+          <p>
+            🔹 <b>Enhance Learning Opportunities –</b> CPI Mind Maze isn’t just
+            a contest—it’s a learning experience. Students apply theoretical
+            knowledge, tackle real-world challenges, and gain hands-on coding
+            experience.
+          </p>{" "}
+          <br />
+          <p>
+            🔹 <b>Foster Healthy Competition –</b> Competition drives growth.
+            Through time-constrained and logic-based contests, students sharpen
+            coding skills, think under pressure, and improve algorithmic
+            problem-solving.
+          </p>{" "}
+          <br />
+          <p>
+            🔹 <b>Build a Strong Tech Community –</b> Tech Cluder connects
+            students with peers, mentors, and industry professionals, fostering
+            collaboration and innovation.
+          </p>{" "}
+          <br />
+          <p>
+            🔹 <b>Prepare for the Future –</b> CPI Mind Maze equips students
+            with technical, analytical, and logical thinking skills essential
+            for academics, careers, and global coding competitions.
+          </p>
         </div>
       </div>
     </div>

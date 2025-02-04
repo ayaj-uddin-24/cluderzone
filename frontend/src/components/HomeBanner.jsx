@@ -80,10 +80,17 @@ const HomeBanner = () => {
           {/* Call-to-Action Button */}
           <NavLink
             to="/registration"
-            className="inline-block bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            className="inline-block border border-blue-600 bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
             aria-label="Register for the TechCluder Community Event"
           >
             Register Now
+          </NavLink>
+          <NavLink
+            to="/rules-book"
+            className="inline-block border border-blue-600 ms-2 hover:bg-blue-600 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            aria-label="Register for the TechCluder Community Event"
+          >
+            Rules Book
           </NavLink>
         </div>
       </div>
