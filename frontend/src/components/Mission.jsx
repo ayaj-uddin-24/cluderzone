@@ -8,11 +8,10 @@ const Mission = () => {
         Our Mission
       </h1>
       <p className="text-sm text-center pt-4 w-full sm:w-[75%] mx-auto">
-        At <b>Tech Cluder</b>, our mission is to{" "}
-        <b>empower, inspire, and nurture</b> the next generation of programmers
-        and problem-solvers. Through <b>CPI Mind Maze</b>, we aim to create an
-        environment where students can <b>learn, compete, and grow</b> in the
-        field of programming.
+        At Tech Cluder, our mission is to empower, inspire, and nurture the next
+        generation of programmers and problem-solvers. Through CPI Mind Maze, we
+        aim to create an environment where students can learn, compete, and grow
+        in the field of programming.
       </p>
 
       {/* Mission Details */}

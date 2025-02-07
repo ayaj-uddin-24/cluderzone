@@ -34,7 +34,7 @@ const HomeBanner = () => {
     <section
       className="relative bg-cover bg-center h-[500px] sm:h-screen"
       style={{
-        backgroundImage: "url('../../public/banner.webp')",
+        backgroundImage: "url('/banner.webp')",
       }}
     >
       {/* Overlay */}
