@@ -34,26 +34,20 @@ const HomeBanner = () => {
     <section
       className="relative bg-cover bg-center h-[500px] sm:h-screen"
       style={{
-        backgroundImage: "url('/banner.webp')",
+        backgroundImage: "url('/banner.jpg')",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-75"></div>
+      <div className="absolute inset-0 bg-black opacity-25"></div>
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center justify-center px-4">
         <div className="text-center text-white space-y-6 max-w-3xl">
-          <h1
-            className="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow-md"
-            aria-label="TechCluder Community Event"
-          >
-            TechCluder Community Event
-          </h1>
           <p
-            className="text-base sm:text-lg md:text-xl leading-relaxed font-medium"
+            className="text-base sm:text-lg md:text-xl leading-relaxed font-bold pt-36"
             aria-label="Event details: February 27, 2025, at Chattogram Polytechnic"
           >
-            Join us at Chattogram Polytechnic on February 27, 2025
+            Join us at Chattogram Polytechnic <br /> on February 27, 2025
           </p>
 
           {/* Countdown Timer */}
@@ -66,7 +60,7 @@ const HomeBanner = () => {
             ].map((time, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center bg-black/70 backdrop-blur-md p-3 sm:p-4 rounded-lg shadow-md"
+                className="flex flex-col items-center bg-black/35 backdrop-blur-md p-3 sm:p-4 rounded-lg shadow-md"
                 aria-label={`${time.value} ${time.label}`}
               >
                 <p className="font-bold text-xl sm:text-2xl md:text-4xl">
@@ -80,8 +74,11 @@ const HomeBanner = () => {
           {/* Call-to-Action Button */}
           <NavLink
             to="/registration"
-            className="inline-block border border-blue-600 bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            className="inline-block border border-blue-0 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
             aria-label="Register for the TechCluder Community Event"
+            style={{
+              backgroundColor: "#FD62CA",
+            }}
           >
             Register Now
           </NavLink>

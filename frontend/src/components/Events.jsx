@@ -23,7 +23,7 @@ const events = [
     title: "Competitive Coding",
     subtitle: "Semesters 3, 5 & 7",
     content:
-      "🚀 A timed coding challenge where participants solve real-world problems.<br/>🔹 Focuses on problem-solving, algorithms, and efficiency.<br />🔹 Covers data structures, logic, and math-based coding.<br />🔹 Tests critical thinking and optimization under constraints.<br />🔹 Features varying difficulty levels in a competitive format.<br />👉 Ideal for: Intermediate and advanced programmers preparing for coding contests.",
+      "🚀 A timed coding challenge where participants solve real-world problems.<br/>🔹 Focuses on problem-solving, algorithms, and efficiency.<br />🔹 Covers DSA, logic, and math-based coding.<br />🔹 Tests critical thinking and optimization under constraints.<br />🔹 Features varying difficulty levels in a competitive format.<br />👉 Ideal for: Intermediate and advanced programmers preparing for coding contests.",
   },
 ];
 

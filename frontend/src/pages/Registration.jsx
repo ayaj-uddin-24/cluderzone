@@ -64,16 +64,16 @@ const RegistrationForm = () => {
     <div className="flex items-center min-h-screen justify-center bg-gray-100 py-10">
       <div className="flex flex-col md:flex-row w-full max-w-5xl px-4 sm:px-[5vw]">
         {/* Left Section */}
-        <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center bg-gradient-to-r from-blue-500 to-blue-700 text-white p-8 rounded-l-lg shadow-lg">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Our Event!</h1>
+        <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-l-lg shadow-lg">
+          <h1 className="text-4xl font-bold mb-4">Welcome to CPI MindMaze</h1>
           <p className="text-lg">
             Join us for an unforgettable experience filled with learning,
             competition, and fun. Register now to secure your spot!
           </p>
           <img
-            src="/event-grapics.jpg"
+            src="/register.jpg"
             alt="Event Graphic"
-            className="mt-6 rounded-lg shadow-lg w-2/3"
+            className="mt-6 rounded-lg shadow-lg w-4/5"
           />
         </div>
 
