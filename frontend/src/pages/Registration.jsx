@@ -1,9 +1,12 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { url } from "../App";
 import { toast } from "react-toastify";
+import { BlogContext } from "../contexts/BlogContext";
+import AlreadyRegistered from "./AlreadyRegistered";
 
 const RegistrationForm = () => {
+  const { userData, setUserData } = useContext(BlogContext);
   const [formData, setFormData] = useState({
     fullName: "",
     teamName: "",
@@ -32,6 +35,7 @@ const RegistrationForm = () => {
     try {
       const res = await axios.post(`${url}/api/user/register`, formData);
 
+      setUserData(formData);
       if (res.data.success) {
         setFormData({
           fullName: "",
@@ -46,7 +50,6 @@ const RegistrationForm = () => {
           event: "",
         });
         toast.success(res.data.message);
-        window.location.replace("/");
       } else {
         toast.error(res.data.message);
       }
@@ -55,7 +58,9 @@ const RegistrationForm = () => {
     }
   };
 
-  return (
+  return userData ? (
+    <AlreadyRegistered />
+  ) : (
     <div className="flex items-center min-h-screen justify-center bg-gray-100 py-10">
       <div className="flex flex-col md:flex-row w-full max-w-5xl px-4 sm:px-[5vw]">
         {/* Left Section */}
