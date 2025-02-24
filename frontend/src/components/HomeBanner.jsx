@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const HomeBanner = () => {
-  const targetDate = "February 27, 2025 00:00:00";
+  const targetDate = "February 25, 2025 09:30:00";
   const countDownDate = new Date(targetDate).getTime();
 
   const [countDown, setCountDown] = useState(
@@ -88,6 +88,13 @@ const HomeBanner = () => {
             aria-label="Register for the TechCluder Community Event"
           >
             Rules Book
+          </NavLink>
+          <NavLink
+            className="inline-block border border-blue-0 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 ms-2"
+            aria-label="Hackerrank Contest Link"
+            to={"https://www.hackerrank.com/codestorm-1-0-1740324245"}
+          >
+            Join Now
           </NavLink>
         </div>
       </div>

@@ -10,6 +10,7 @@ import Post from "./pages/Post";
 export const url = import.meta.env.VITE_BACKEND_URL;
 import { ToastContainer } from "react-toastify";
 import RulesPage from "./pages/RulesPage";
+import CountdownTimer from "./pages/CountdownTimer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/post/:title" element={<Post />} />
         <Route path="/rules-book" element={<RulesPage />} />
+        <Route path="/count" element={<CountdownTimer />} />
       </Routes>
       <Footer />
     </BrowserRouter>
