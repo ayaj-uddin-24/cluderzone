@@ -96,6 +96,16 @@ const HomeBanner = () => {
           >
             Join Now
           </NavLink>
+          <NavLink
+            to="/count"
+            className="inline-block border border-blue-0 text-white font-semibold py-2 px-6 sm:py-3 sm:px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 ms-3"
+            aria-label="Register for the TechCluder Community Event"
+            style={{
+              backgroundColor: "#FD62CA",
+            }}
+          >
+            Count Down
+          </NavLink>
         </div>
       </div>
     </section>
